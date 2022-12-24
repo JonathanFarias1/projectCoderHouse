@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu{
+
+       background-color: #0b4524;
+   
+       font-size: 16px;
+       font-style:oblique;
+       font-weight: 50;
+       font-family:roboto,sans-serif;
+       padding-left: 10px;
+       padding-right: 10px;
+       margin-bottom: 1px;
+       height: 100px ;
+   
+       position: sticky;
+       top:0px;
+       z-index: 1;
+       overflow:auto;
+   
+       padding: -1px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+
+   .menu img{
+width: 120px;
+
+   }
+
+.menu nav ul{
+
+           /*CON ESTA ETIQUETA SE QUITA LA VIÑETA*/
+           list-style:none;
+           display:flex;
+           justify-content: space-around;
+           align-items: center;
+           gap: 10px;
+}
+
+.menu nav ul li{
+    padding: 5px;
+}
+
+.menu nav ul li a{
+  /*decoracion del texto aqui le quite la decoracion*/ 
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.pantalla-bienvenida{
+    height: 100vh;
+    background-image: url("../img/bienvenida.png");
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pantalla-bienvenida h1{
+    background-color: rgba(0, 128, 0, 0.742);
+    color:white;
+    border: 2px solid gray;
+    margin-top: 50px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 20px;
+
+    
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+
+    font-weight: 40;
+    font-size: 18px;
+
+    
+    font-family:Myriad Pro,roboto,sans-serif;
+    overflow: auto;
+      color:#1e5c3a; 
+    /*color: #624b37;*/
+    
+}
+
+.contenido span{
+    color: #147e42;
+    font-size: 20px;
+    font-weight: 50;
+
+ 
+}
+
+.contenido h1{
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+     text-align: center;
+     padding-bottom: 20px;
+color: #147e42;
+  
+}
+
+
+
+.pie{
+    background-color: #0b4524;
+    font-size: 16px;
+    font-style:oblique;
+    font-weight: 50;
+    font-family:roboto,sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.pie ul{ 
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.pie ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pie img{
+    width: 120px;
+}
+
+
+/*PRODUCTOS    CATALOGO DE PRODUCTOS*/
+
+.galeria{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.galeria h1{
+    margin-top: 50px;
+}
+
+.productos{
+    margin: 50px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+}
+
+
+
+.muestra-productos{
+    width: 300px;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.muestra-productos img{
+    width: 100%;
+    
+}
+
+.muestra-productos h2{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* CENTRO DE DESCARGAS  */
+
+.descargas{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    align-content: center;
+}
+
+
+.descargas h1{
+    font-family:Myriad Pro,roboto,sans-serif;
+    color:#1e5c3a; 
+}
+
+
+.descargas p{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 80px;
+    color:#1e5c3a; 
+}
+
+.descargas img{
+    width: 500px;
+    text-align: center;
+}
+
+
+
+
+.archivos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.muestra-archivo{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.muestra-archivo img{
+    width: 100%;
+    
+}
+
+.muestra-archivo h2{
+    text-align: center;
+}
+
+
+/*CODIGO DE CONDUCTA*/
+
+.codigoConducta{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    align-content: center;
+    margin-left: 70px;
+}
+
+
+.codigoConducta ul{ 
+    list-style:none;
+    margin: 100px;
+}
+
+.codigoConducta ul li a{
+    text-decoration: none;
+    color:#1e5c3a; 
+}
+
+.codigoConducta img{
+    width:650px;
+    margin-right: 80px;
+}
+
+/*CONTACTANOS*/
+
+
+.contactanos{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    align-content: center;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-left: 150px;
+    height: 500px;
+    font-size: 20px;
+    font-weight: 40;
+    font-style: italic;
+    color:#1e5c3a; 
+}
+
+.contactanos img{
+       width: 750px;
+      margin-right: 100px;
+}
+
+.boton{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#1e5c3a;
+    color:white;
+}
