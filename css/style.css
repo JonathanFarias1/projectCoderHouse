@@ -38,15 +38,7 @@
 }
 
 
-.pantalla-bienvenida{
-    height: 100vh;
-    background-image: url("../img/bienvenida.png");
-    background-position:center;
-    background-size:cover;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
+
 
 .pantalla-bienvenida h1{
     background-color: rgba(0, 128, 0, 0.742);
