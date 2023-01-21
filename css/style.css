@@ -84,9 +84,6 @@ h1 {
   color: #147e42;
 }
 
-.pantalla-bienvenida {
-  margin-bottom: 30px;
-}
 .pantalla-bienvenida h1 {
   color: #0b4524;
   text-align: center;
@@ -134,7 +131,7 @@ h1 {
 .galeria {
   margin-bottom: 40px;
 }
-.galeria h1 {
+.galeria h2 {
   margin-top: 30px;
   text-align: center;
   margin-bottom: 30px;
@@ -144,7 +141,6 @@ h1 {
 .muestra-productos {
   width: 40px;
   border-radius: 5px;
-  overflow: hidden;
 }
 .muestra-productos img {
   width: 100%;
@@ -158,7 +154,7 @@ h1 {
 }
 
 .descargas {
-  margin-top: 40px;
+  height: 130vh;
 }
 .descargas h1 {
   font-family: Myriad Pro, roboto, sans-serif;
@@ -168,12 +164,10 @@ h1 {
   color: #1e5c3a;
 }
 .descargas img {
-  width: 500px;
   text-align: center;
 }
 
 .archivos {
-  margin-bottom: 50px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -196,6 +190,7 @@ h1 {
 
 .codigoConducta {
   margin-top: 30px;
+  height: 130vh;
 }
 .codigoConducta ul {
   list-style: none;
