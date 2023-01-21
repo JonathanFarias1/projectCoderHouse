@@ -2,6 +2,8 @@
 
 .pantalla-bienvenida{
 
+  margin-bottom: 30px;
+
     h1{
     color:$color-base;
     text-align: center;
@@ -14,11 +16,16 @@
     font-size: 18px;
     font-family:Myriad Pro,roboto,sans-serif;
       color:$color-secundario;
+      margin-top: 40px;
 
       span{
         color: $color-secundario;
         font-size: 20px;
         font-weight: 50;
+      }
+
+      h2{
+        color: $color-base;
       }
 }
 
@@ -29,11 +36,20 @@
               width: 100%
                }
 
+               h5{
+                color: $color-base;
+               }
+               
+               p{
+                color: $color-base;
+               }
+
     }
     
 
     .conocidas{
         text-align: center;
+        margin-top:30px ;
         margin-bottom: 40px;
 
         h2{
