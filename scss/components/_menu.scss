@@ -1,0 +1,40 @@
+
+
+//Apartado Usado para todo los Menus o Nav Bar del Proyecto
+
+.menu{
+
+    background-color: #0b4524;
+
+    font-size: 16px;
+    font-style:oblique;
+    font-weight: 50;
+    font-family:roboto,sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 1px;
+
+    position:sticky;
+    top:0px;
+
+     img{
+        width: 120px;
+     }
+
+     ul{
+        li{
+            a{
+
+              color: white;
+              font-size: 18px;
+
+              :hover{
+                box-shadow: 0px 2px 10px 5px;
+                border-radius: 8px;
+                color:white;
+              }
+            }
+        }
+     }
+
+}

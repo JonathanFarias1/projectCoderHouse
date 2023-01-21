@@ -1,0 +1,31 @@
+.galeria{
+    margin-bottom: 40px;
+
+    h1{
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        color:$color-secundario;
+      }
+}
+
+
+.muestra-productos{
+    width: 40px;
+    border-radius: 5px;
+    overflow:hidden;
+
+    img{
+        width: 100%;
+  
+        :hover{
+            transform: scale(1.5);
+        }
+    }
+
+    h2{
+        font-size: 16px;
+        text-align: center;
+    }
+
+}

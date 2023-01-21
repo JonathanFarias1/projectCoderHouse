@@ -1,0 +1,36 @@
+.pie{
+    background-color: #0b4524;
+    font-size: 16px;
+    font-style:oblique;
+    font-weight: 50;
+    font-family:roboto,sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+
+
+    ul{ 
+        list-style:none;
+        display:flex;
+        justify-content: space-around;
+        font-size: 14px;
+
+        li{
+            a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+    }
+
+    img{
+        width: 120px;
+    }
+
+    
+}

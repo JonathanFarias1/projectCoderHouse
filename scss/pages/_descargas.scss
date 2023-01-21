@@ -1,0 +1,45 @@
+.descargas{
+    margin-top: 40px;
+
+    h1{
+        font-family:Myriad Pro,roboto,sans-serif;
+        color:$color-terciario;
+    }
+
+    p{
+        color:$color-terciario; 
+    }
+
+    img{
+        width: 500px;
+        text-align: center;
+    }
+    
+}
+
+
+
+.archivos{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    h2{
+        color:$color-secundario;
+    }
+}
+
+.muestra-archivo{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 5px;
+    overflow:hidden;
+
+    img{
+        width: 100%;
+}
+
+        h2{
+    text-align: center;
+        }
+}

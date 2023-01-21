@@ -1,0 +1,46 @@
+
+
+.pantalla-bienvenida{
+
+    h1{
+    color:$color-base;
+    text-align: center;
+      }
+
+} 
+
+.contenido{
+    font-weight: 40;
+    font-size: 18px;
+    font-family:Myriad Pro,roboto,sans-serif;
+      color:$color-secundario;
+
+      span{
+        color: $color-secundario;
+        font-size: 20px;
+        font-weight: 50;
+      }
+}
+
+.contenidoTarjetas{
+    margin-bottom: 60px;
+        
+            img{
+              width: 100%
+               }
+
+    }
+    
+
+    .conocidas{
+        text-align: center;
+        margin-bottom: 40px;
+
+        h2{
+            color: $color-secundario;
+            margin-bottom: 40px;
+        }
+     
+    }
+    
+  
