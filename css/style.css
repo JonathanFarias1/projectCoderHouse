@@ -153,9 +153,6 @@ h1 {
   text-align: center;
 }
 
-.descargas {
-  height: 130vh;
-}
 .descargas h1 {
   font-family: Myriad Pro, roboto, sans-serif;
   color: #1e5c3a;
@@ -190,7 +187,6 @@ h1 {
 
 .codigoConducta {
   margin-top: 30px;
-  height: 130vh;
 }
 .codigoConducta ul {
   list-style: none;
@@ -201,7 +197,6 @@ h1 {
 }
 
 .contactanos {
-  height: 100vh;
   margin-top: 40px;
 }
 
