@@ -12,6 +12,11 @@
     img{
         text-align: center;
     }
+
+    span{
+        color:red;
+        font-size: 30;
+    }
     
 }
 
@@ -20,7 +25,7 @@
 .archivos{
     margin-left: 10px;
     margin-right: 10px;
-
+    margin-bottom: 40px;
     h2{
         color:$color-secundario;
     }
